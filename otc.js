@@ -23,9 +23,7 @@ var altcoin = {
   set: "!set" + config.altcoin.toLowerCase()
 }
 
-var help = 
-  + "Orders must be in the format of AMOUNT_OF_COINS@PRICE_EACH e.g 100K@30\n" 
-  + config.name + " usage:\n"
+var help = "Orders must be in the format of AMOUNT_OF_COINS@PRICE_EACH e.g 100K@30\n" + config.name + " usage:\n"
   + "!hello : register your nick with the bot\n"
   + "!bid ORDER : place bid e.g !bid 1.5m@25\n"
   + "!ask ORDER : place ask e.g !ask 1.5m@20\n"

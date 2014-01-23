@@ -2,8 +2,7 @@
   "name": "iquidus-otc",
   "description": "An IRC bot that assists with the trade of crypto currencies before they are listed on exchanges.",
   "author": "Iquidus Technology <info@iquidus.co.nz>",
-  "version": "1.0",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "start": "node otc.js"
   },
@@ -19,5 +18,10 @@
       "name": "Luke Williams",
       "email": "luke@iquidus.co.nz"
     }
-  ]
+  ],
+
+  "repository" :
+    { "type" : "git",
+      "url" : "http://github.com/iquidus/OTC.git"
+    }
 }

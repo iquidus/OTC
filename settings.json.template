@@ -1,0 +1,36 @@
+/*
+  This file must be valid JSON. But comments are allowed
+
+  Please edit settings.json, not settings.json.template
+*/
+{
+  // Alt coin shortname. (e.g ltc)
+  "altcoin": "ltc",
+
+  // Your IRC nick
+  "owner": "xocel",
+  
+  // The bots nick
+  "name": "iquidus-otc",
+  
+  // IRC server
+  "server": "irc.freenode.net",
+  
+  // port
+  "port": 6697,
+  
+  // Channels to join
+  "channels": ["#iquidus-otc"],
+
+  // SSL
+  "secure": true,
+  "selfSigned": true,
+  "certExpired": true,
+
+  // MongoDB settings
+  "database": {
+    "name": "iquidus-otc",
+    "address": "localhost",
+    "port": 27017
+  },
+}

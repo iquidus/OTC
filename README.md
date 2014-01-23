@@ -1,31 +1,31 @@
 
-# IQUIDUS-OTC
+## IQUIDUS-OTC
 
 An IRC bot that assists with the trade of crypto currencies before they are listed on exchanges.
 
-## Requires
+### Requires
 
 *  node
 *  mongodb
 
-## Clone the Source
+### Clone the Source
 
     git clone https://github.com/iquidus/OTC iquidus-otc
 
-## Install
+### Install
 
     cd iquidus-otc
     npm install
 
-## Configure
+### Configure
 
 Copy settings.json.template to settings.json then edit settings.json.
 
-## Run
+### Run
 
     node otc.js
 
-## User Commands
+### User Commands
 
     !hello : register your nick with the bot
     !bid ORDER : place bid (format AMOUNT_OF_COINS@PRICE_EACH e.g 100K@30)
@@ -44,7 +44,7 @@ Copy settings.json.template to settings.json then edit settings.json.
     !help : fetch this help message.
     !info : display bot information
 
-## Admin Commands
+### Admin Commands
 
     !hello : changes your status to online
     !bye : changes your status to offline
@@ -55,7 +55,7 @@ Copy settings.json.template to settings.json then edit settings.json.
     !addescrow USER : add user to approved escrows
     !rmescrow USER : remove user from approved escrows
 
-## Donate
+### Donate
 
 BTC: 14EWdpqFx75N3F9EwtYdnbQnHTPFEUmWZt  
 LTC: LfDxv8K9Nz63ifibVhXXZs3iKgbUsYQXBS  
